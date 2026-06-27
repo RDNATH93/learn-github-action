@@ -1,6 +1,6 @@
 name: Create and Publish Docker Image In Github Package
 
-on: [push]
+on: [release]
 
 env:
   REGISTRY: ghcr.io
