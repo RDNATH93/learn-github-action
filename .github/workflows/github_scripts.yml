@@ -2,6 +2,11 @@ name: Learning GitHub Script
 on:
   issues:
     types: [opened]
+# ADD THIS BLOCK TO FIX THE ERROR
+permissions:
+  issues: write      # Required to create comments on issues
+  repository-projects: write    # Required to interact with repository classic project boards
+    
 jobs:
   comment:
     runs-on: ubuntu-latest
