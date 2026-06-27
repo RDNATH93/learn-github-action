@@ -17,7 +17,7 @@ jobs:
      
      steps:
        - name: Checkout Repository
-         uses: actions/checkout@6
+         uses: actions/checkout@v6
 
        - name: Login to Container Registry
          uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
